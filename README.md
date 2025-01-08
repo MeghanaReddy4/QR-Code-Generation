@@ -1,8 +1,6 @@
 # QR-Code-Generation
 A simple and customizable QR code generator for creating QR codes from URLs, text, emails, and more, with support for various formats and easy integration.
-Here's a sample `README.md` file for your QR code generation project using `pyqrcode`:
 
----
 
 # QR Code Generator for LinkedIn URL
 
@@ -70,10 +68,4 @@ python generate_qr_code.py
 
 The output will be a PNG image file named `Linkedin_QR.png`.
 
-## License
 
-This project is licensed under the MIT License.
-
----
-
-Feel free to adjust the sections (like the `Usage` or `Installation`) based on how you prefer to distribute or explain your project!
