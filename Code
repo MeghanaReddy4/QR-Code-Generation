@@ -1,1 +1,15 @@
+# Install required libraries for QR code generation and PNG support
+!pip install pyqrcode
+!pip install pypng
 
+# Import the pyqrcode library for QR code creation
+import pyqrcode
+
+# Define the URL or data that you want to encode into a QR code
+a = "https://www.linkedin.com/in/kana-meghana-reddy-220276281/"
+
+# Generate the QR code from the provided URL or data
+url = pyqrcode.create(a)
+
+# Save the generated QR code as a PNG image with the specified scale
+url.png("Linkedin_QR.png", scale=10)
